@@ -1,0 +1,57 @@
+:root {
+  --lila: hsl(277, 64%, 61%);
+}
+
+body {
+  margin: 10%;
+  background-color: hsl(233, 47%, 7%);
+}
+
+#caja {
+  background-color: hsl(244, 38%, 16%);
+
+  border-radius: 1em;
+  display: grid;
+  grid-template-columns: 540px 540px;
+}
+
+#texto {
+  margin: 5vw;
+}
+em {
+  color: var(--lila);
+  font-style: normal;
+}
+h1 {
+  color: white;
+}
+p,
+.dato {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+}
+
+.titulo,
+a {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.elementos {
+  margin-top: 5vw;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.elemento-uno {
+  display: flex;
+  flex-direction: column;
+}
+#img {
+  background-image: linear-gradient(
+      rgba(112, 59, 165, 0.493),
+      rgba(140, 81, 199, 0.466)
+    ),
+    url(../Desing-web-side-HTML-CSS/images/image-header-desktop.jpg);
+  border-radius: 0 1em 1em 0;
+}
